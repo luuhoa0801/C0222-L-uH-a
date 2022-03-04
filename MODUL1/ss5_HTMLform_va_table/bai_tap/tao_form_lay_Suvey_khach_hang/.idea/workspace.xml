@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6907a9b5-551f-460f-9b7a-b6941a2a5ea6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../TaoBangDonGian/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangDonGian/.idea/TaoBanDonGian.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangDonGian/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangDonGian/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangDonGian/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangDonGian/simpletanle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangNangCao/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangNangCao/.idea/TaoBangNangCao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangNangCao/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangNangCao/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangNangCao/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoBangNangCao/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoFormDonGian/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoFormDonGian/.idea/TaoFormDonGian.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoFormDonGian/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoFormDonGian/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoFormDonGian/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoFormDonGian/formdongian.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TaoFormLaySurveyKhachHang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taoformlaysurvey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoGiaoDienFormDangKyNguoiDung/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoGiaoDienFormDangKyNguoiDung/.idea/TaoGiaoDienFormDangKyNguoiDung.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoGiaoDienFormDangKyNguoiDung/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoGiaoDienFormDangKyNguoiDung/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoGiaoDienFormDangKyNguoiDung/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaoGiaoDienFormDangKyNguoiDung/dangkynguoidung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../bt1/baitap/abc.text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../bt1/bbb.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="25sSw0giJOjb6xF7XHMPHr66SCO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6907a9b5-551f-460f-9b7a-b6941a2a5ea6" name="Default Changelist" comment="" />
+      <created>1646314535048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646314535048</updated>
+      <workItem from="1646314536694" duration="3459000" />
+      <workItem from="1646355190087" duration="64000" />
+      <workItem from="1646365567066" duration="2568000" />
+      <workItem from="1646380715556" duration="328000" />
+      <workItem from="1646388468130" duration="1007000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="632" y="155" key="FileChooserDialogImpl" timestamp="1646380741377">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="632" y="155" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1646380741377" />
+  </component>
+</project>
