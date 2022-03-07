@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ungdungchuyendoitiente</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th colspan="3"> Amount</th>
+        <th></th>
+        <th></th>
+        <th colspan="2">From Curency</th>
+        <th></th>
+        <th></th>
+        <th colspan="2"> To Curency</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    <tr>
+        <td colspan="3">
+            <input type="text" id="tiente">
+        </td>
+        <td></td>
+        <td></td>
+        <td colspan="2">
+            <select id="from">
+                <option value="VietNam"> VietNam</option>
+                <option value="USD"> usd</option>
+            </select>
+        </td>
+        <td></td>
+        <td></td>
+        <td colspan="2">
+            <select id="to">
+                <option value="USD">USD</option>
+                <option value="VietNam">VietNam</option>
+            </select>
+        </td>
+        <td></td>
+        <td></td>
+        <td colspan="2">
+            <button type="button" onclick="chuyendoi()"> Convert</button>
+        </td>
+    </tr>
+    <tr>
+        <th colspan="4">
+            <p id="ketqua">
+        </th>
+    </tr>
+</table>
+
+
+</body>
+<script>
+    function chuyendoi() {
+        let a = parseInt(document.getElementById('tiente').value);
+        let b = document.getElementById('from').value ;
+        // alert(b)
+        let c = document.getElementById('to').value;
+        // alert(c)
+        if (b === c) {
+            document.getElementById('ketqua').innerHTML = a;
+        }
+        if (b == "VietNam" && c == "USD" ){
+
+            document.getElementById('ketqua').innerHTML = a / 23000 ;
+        }
+        if (b=="USD" && c=="VietNam"){
+            document.getElementById('ketqua').innerHTML = a * 23000
+        }
+    }
+    
+</script>
+
+
+</html>
