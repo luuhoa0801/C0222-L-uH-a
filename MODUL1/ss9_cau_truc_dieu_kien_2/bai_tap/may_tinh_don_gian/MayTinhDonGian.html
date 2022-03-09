@@ -5,88 +5,99 @@
     <title>Title</title>
 </head>
 <body>
-<form >
+
     <table >
         <tr>
             <th style="width: 200px;height: 40px;background-color: aliceblue" colspan="10">
-                <input id="noinhap" type="text">
+                <input  id="input" type="text" readonly>
             </th>
             <th> </th>
         </tr>
         <tr>
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so1" type="button">1 </button>
+                <input type="button" value="1" id="1" onclick="bam('1')">
             </th>
-            <th></th>
+
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so2" type="button">2 </button>
+                <input type="button" value="2" id="2" onclick="bam('2')">
             </th>
-            <th></th>
+
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so3" type="button">3 </button>
+                <input type="button" value="3" id="3" onclick="bam('3')">
             </th>
-            <th></th>
+
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="daucong" type="button"> + </button>
-            </th>
-        </tr>
-        <tr>
-            <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so4" type="button">4 </button>
-            </th>
-            <th></th>
-            <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so5" type="button">5 </button>
-            </th>
-            <th></th>
-            <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so6" type="button">6 </button>
-            </th>
-            <th></th>
-            <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="dautru" type="button"> - </button>
+                <input type="button" value="+" id="daucong" onclick="bam('+')">
             </th>
         </tr>
         <tr>
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so7" type="button">7 </button>
+                <input type="button" value="4" id="4" onclick="bam('4')">
             </th>
-            <th></th>
+
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so8" type="button">8 </button>
+                <input type="button" value="5" id="5" onclick="bam('5')">
             </th>
-            <th></th>
+
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so9" type="button">9 </button>
+                <input type="button" value="6" id="6" onclick="bam('6')">
             </th>
-            <th></th>
+
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="daunhan" type="button">x </button>
+                <input type="button" value="-" id="dautru" onclick="bam('-')">
             </th>
         </tr>
         <tr>
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="trove" type="button">C </button>
+                <input type="button" value="7" id="7" onclick="bam('7')">
             </th>
-            <th></th>
+
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="so0" type="button">0 </button>
+                <input type="button" value="8" id="8" onclick="bam('8')">
             </th>
-            <th></th>
+
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="daubang" type="button"> = </button>
+                <input type="button" value="9" id="9" onclick="bam('9')">
             </th>
-            <th></th>
+
             <th style="width: 30px;height: 30px;background-color: blue" >
-                <button id="dauchia" type="button">/ </button>
+                <input type="button" value="x" id="daunhan" onclick="bam('*')">
+            </th>
+        </tr>
+        <tr>
+            <th style="width: 30px;height: 30px;background-color: blue" >
+                <input type="button" value="AC" id="reset" onclick="reset()">
+            </th>
+
+            <th style="width: 30px;height: 30px;background-color: blue" >
+                <input type="button" value="0" id="0" onclick="bam('0')">
+            </th>
+
+            <th style="width: 30px;height: 30px;background-color: blue" >
+                <input type="button" value="=" id="result" onclick="result()">
+            </th>
+
+            <th style="width: 30px;height: 30px;background-color: blue" >
+                <input type="button" value="/" id="dauchia" onclick="bam('/')">
             </th>
         </tr>
     </table>
-</form>
+
 
 </body>
 
 <script>
+    function bam(value) {
+        document.getElementById("input").value += value;
+    }
+    function result() {
+        let ketqua = document.getElementById("input").value ;
+
+        document.getElementById("input").value = eval(ketqua) ;
+    }
+    function reset() {
+        document.getElementById("input").value = "" ;
+    }
     
 </script>
 </html>

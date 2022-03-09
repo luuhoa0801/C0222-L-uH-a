@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    // bài1
+
+    // let c = parseInt(prompt('nhập độ C ở đây'));
+    // let f = c * (9 / 5) + 32
+    // alert('độ F là ' + f);
+
+    // bài2
+
+    // let m = parseInt(prompt('nhập số mét ở đây'));
+    // let f = m * 3.2808
+    // alert('kết quả đổi ra feet là '+ f);
+
+    // bài3
+    //
+    // let a = parseInt(prompt('nhập chiều dài cạnh'));
+    // let s = a * a
+    // alert('diện tích hình vuông là ' +s );
+
+    // bài4
+    //
+    // let a = parseInt(prompt('nhập chiều dài hình thứ nhất'));
+    // let b = parseInt(prompt('nhập chiều dài cạnh thứ hai'));
+    //
+    // let s = Math.pow(a+b, 2)
+    // // let s = (a + b)*(a + b) => cái này đồng nghĩa với câu trên
+    //
+    // alert('diện tích hình chữ nhật là '+s);
+
+    // bài5
+    //
+    // let a = parseInt(prompt('nhập cạnh tam giác vuông thứ nhất'));
+    // let b = parseInt(prompt('nhập cạnh tam giác vuông thứ hai'));
+    // let s =  a * b / 2
+    // alert('diện tích tam giác vuông là '+ s );
+
+    // bài6
+    //
+    // let a = parseInt(prompt('nhập số a '));
+    // let b = parseInt(prompt('nhập số b'));
+    // let x = (-b) / a
+    // alert('x = ' + x);
+
+    // bài7
+
+    // let a = parseInt(prompt('nhập số a'));
+    // let b = parseInt(prompt('nhập số b'));
+    // let c = parseInt(prompt('nhập số c'));
+    // let d = Math.pow(b ,2) - (4 * a * c) ;
+    // if (a ===0 && b===0 && a===0){
+    //     alert('phương trình vô nghiệm');
+    // }else if (a===0 && b===0 && c !==0){
+    //     alert('phương trình vô nghiệm');
+    // }else if (a===0 && c===0 && b !==0){
+    //     alert('phương trình vô só nghiệm');
+    // } else if (a===0 && b !==0 && c!==0){
+    //     let x = -c /a
+    //     alert('phương trình có nghiệm x = ' + x );
+    // } else if (b===0 && a !== 0 && c !==0){
+    //     let x = Math.sqrt(-c/a)
+    //     alert('phương trình có nghiệm x = '+ x);
+    // } else if ( d < 0){
+    //     alert('phương trình vô nghiệm')
+    // } else if (d===0){
+    //     let x = (-b) / (2 * a);
+    //     alert('phương trình có nghiệm kép x1 và x2 = '+x );
+    // }else {
+    //     let y = (Math.sqrt(d) - b) / (2 * a);
+    //     let z = (-b - Math.sqrt(d)) / (2 * a);
+    //     alert('phương trình có 2 nghiệm riêng biệt là x1 và x2 lần lượt là '+y  + z )
+    // }
+
+
+    // bài8
+    //
+    // let a = parseInt(prompt('nhập số vào đây'));
+    // if (a < 120 && a > 0 ){
+    //     alert('đây là số tuổi của một người')
+    // } else {
+    //     alert('đây không phải là tuổi của một người')
+    // }
+
+    // bài9
+
+    // let a = parseInt(prompt('nhập cạnh thứ nhất'));
+    // let b = parseInt(prompt('nhập cạnh thứ hai'));
+    // let c = parseInt(prompt('nhập cạnh thứ ba'));
+    // if (a < 0 && b < 0 && c <0 ){
+    //     alert('không phải là cạnh của tam giác');
+    // }else if (a+b >c && b +c >a && a+c >b ){
+    //     alert('là các cạnh của tam giác');
+    // } else alert('không phải là các cạnh của tam giác')
+
+    // bài10
+    //
+    // let a = parseInt(prompt('nhập số sản lượng điện đã dùng'));
+    // if (0<=a && a<=50){
+    //     let b = a * 1678
+    //     alert('số tiền điện tháng này là '+b);
+    // }else if (a>50 && a<=100){
+    //     let b = a * 1734
+    //     alert('số tiền điện tháng này là '+b);
+    // }else if (a>=101 && a<=200){
+    //     let b = a * 2014
+    //     alert('số tiền điện tháng này là '+b);
+    // }else if (a>=201 && a<=300){
+    //     let b = a * 2536
+    //     alert('số tiền điện tháng này là '+b);
+    // }else if (a>=301 && a <=400){
+    //     let b = a *2834
+    //     alert('số tiền điện tháng này là '+b);
+    // }else {let b = a * 2927
+    //     alert('số tiền điện tháng này là '+b);
+    // }
+
+    // bài11
+
+    // let a = parseInt(prompt('thu nhập tính thuế là '))
+    // switch (true) {
+    //     case a<=5:
+    //         // let b = a * (5/100)
+    //         alert('thuế thu nhập cá nhân cần nộp là '+ a*(5/100) );
+    //         break;
+    //     case a>=5 && a<10:
+    //         alert('thuế thu nhập cá nhân cần nộp là ' + a*(10/100));
+    //         break;
+    //     case a>=10 && a<18:
+    //         alert('thuế thu nhập cá nhân cần nộp là ' + a*(15/100));
+    //         break;
+    //     case a>=18 && a<32:
+    //         alert('thuế thu nhập cá nhân cần nộp là ' +a*(20/100));
+    //         break;
+    //     case a>=32 && a<52:
+    //         alert('thuế thu nhập cá nhân cần nộp là '+ a*(25/100));
+    //         break;
+    //     case a>=52 && a < 80:
+    //         alert('thuế thu nhập cá nhân cần nộp là ' + a*(30/100));
+    //         break;
+    //     default:
+    //         alert('thuế thu nhập cá nhân cần nộp là ' + a* (35/100));
+    //         break;
+    // }
+
+    
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</html>
