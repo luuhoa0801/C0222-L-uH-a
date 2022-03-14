@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="">
+    <input type="text" placeholder="tìm kiếm từ khóa" id="timkiem">
+    <input type="button" value="Seach" onclick="dich()"  id="seach">
+</form>
+
+</body>
+<script>
+
+    function dich() {
+        let input = document.getElementById("timkiem").value;
+        let eng = ['one','two','three','four','five'];
+        let vns = ['mot','hai','ba','bon','nam'];
+        for (let i = 0;i < eng.length; i++ ){
+            if (input===eng[i]){
+                alert(vns[i]);
+                break;
+            } else if (i === (eng.length - 1 )){
+                alert("không có từ khóa này");
+            }
+        }
+    }
+
+
+
+
+
+
+</script>
+
+</html>
