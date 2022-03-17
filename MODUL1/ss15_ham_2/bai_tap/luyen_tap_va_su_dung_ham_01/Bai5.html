@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="input" type="text"> <button onclick="clickMe();"> CLICK ME </button>
+<p id="ketqua"></p>
+</body>
+<script>
+    function search(string) {
+        let check = false;
+        let a = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+        let b = ['UrsaMinor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', ' UrsaMajor', 'Leo'];
+        for (let i = 0; i < a.length; i++) {
+            if (string === a[i]) {
+                check = true;
+                var aaa = b[i]
+
+            }
+        }
+        if(check===true) {
+            return aaa;
+        } else {
+            return "không có ngôi sao này";
+        }
+    }
+    function clickMe(){
+        let input = document.getElementById("input").value;
+        let ccc = search(input)
+        document.getElementById("ketqua").innerHTML = ccc;
+    }
+
+
+
+
+
+
+
+</script>
+</html>

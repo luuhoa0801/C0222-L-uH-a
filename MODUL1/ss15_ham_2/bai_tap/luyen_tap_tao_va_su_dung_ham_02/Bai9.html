@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+
+<script>
+
+    function check(a,b) {
+        let count = 0 ;
+        for (let i = 0; i <a.length; i++){
+            if (b===a[i]){
+                count++;
+            }
+        }
+        if (count > 0){
+            return "có " + count + " ký tự " + b;
+        } else {
+            return -1
+        }
+    }
+    let array = [];
+    let lengthofarray = parseInt(prompt("Nhập độ dài của mảng: "));
+    for(let i = 1; i <=lengthofarray; i++){
+        let d = prompt("Nhập ký tự thứ " + i);
+        array.push(d);
+    }
+    let n = prompt('nhập kí tự bất kì');
+    alert(check(array,n));
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="text" id="input">
+<button value=" F-M" onclick="footToMeter()"> F->M </button>
+<button value=" M-F" onclick="meterToFoot()"> M->F</button>
+<p id="ketqua"> Kết quả : </p>
+
+</body>
+
+<script>
+
+function footToMeter() {
+        let foot = parseInt( document.getElementById("input").value);
+        document.getElementById('ketqua').innerHTML =0.305 * foot;
+}
+function meterToFoot(){
+    let meter = parseInt(document.getElementById('input').value);
+        document.getElementById('ketqua').innerHTML =3.279 * meter;
+}
+
+
+</script>
+</html>
