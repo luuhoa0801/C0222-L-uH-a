@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-
+    <canvas id="myCanvas"></canvas>
 </body>
 <script>
     class Rectangle{
@@ -23,10 +23,16 @@
         }
     }
 
-    let number = new Rectangle(5,3);
+    let number = new Rectangle(50,30);
     number.perimeter();
     number.acreage();
 
+    let canvas = document.getElementById("myCanvas");
+    let page2d = canvas.getContext("2d");
+    page2d.rect(50,50,50,30);
+    page2d.stroke();
+    page2d.fillStyle = "black";
+    page2d.fill();
 
 
 

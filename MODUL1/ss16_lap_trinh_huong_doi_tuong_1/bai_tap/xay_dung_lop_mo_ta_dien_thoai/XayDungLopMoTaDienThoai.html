@@ -10,19 +10,51 @@
 <script>
     class Mobile {
         constructor() {
-           this.trangThai = trangThai ;
+           this.trangThaiPin = trangThaiPin ;
            this.soanThao = soanThao ;
            this.thuDen = thuDen ;
            this.daGui = daGui ;
         }
+        tinhTrang(){
+            return this.trangThaiPin > 0;
+        }
         trangThaiBatTat(){
-
+            if (this.trangThaiPin > 0 ){
+                console.log("dien thoai dang hoat dong");
+            } else {
+                console.log("dien thoai tat roi");
+            }
         }
-        BatTatDienThoai(){
-
+        turnon(){
+            if (this.tinhTrang()){
+                console.log(" bạn vùa bật điện thoại");}
+            if (this.trangThaiPin > 0){
+                    --this.trangThaiPin
+            }
         }
+        turnoff(){
+            if (this.tinhTrang()){
+                console.log("bạn vừa tắt điện thoại");
+            }
+            if (this.trangThaiPin > 0){
+                --this.trangThaiPin
+            }
+        }
+        xacMobile(){
+            console.log("điện thoại đang sạc" + this.trangThaiPin +"%");
+        }
+
+
+
+
+
 
     }
+
+
+
+
+
 </script>
 
 

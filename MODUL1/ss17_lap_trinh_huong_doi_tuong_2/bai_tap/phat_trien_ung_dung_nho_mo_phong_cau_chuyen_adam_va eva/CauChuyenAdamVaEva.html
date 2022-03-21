@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+
+<script>
+    class nguoi{
+        constructor(ten, gioiTinh,canNang) {
+        this.ten = ten ;
+        this.gioiTinh = gioiTinh ;
+        this.canNang = canNang ;
+        }
+        speak(){
+            console.log("Hello");
+        }
+        eat(obj){
+            if ( obj.weight > 0){
+                this.canNang += 1 ;
+                -- obj.weight ;
+                console.log( this.ten + "đã ăn 1 miếng táo");
+                console.log(this.canNang + " là khối lượng hiện tại");
+            } else {
+                console.log(" không còn táo để ăn")
+            }
+            console.log( obj.weight + " : là khối lượng còn lại của quả táo");
+        }
+    }
+    class apple{
+        constructor( weight) {
+            this.weight = weight ;
+        }
+    }
+
+    let Adam = new nguoi('adam', 'male', 70);
+    let Eva = new nguoi('eva', 'female', 50);
+    let tao = new apple(10);
+
+    Eva.eat(tao);
+    Adam.eat(tao);
+
+</script>
+</html>
